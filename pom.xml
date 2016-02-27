@@ -119,6 +119,9 @@
             <Bundle-SymbolicName>org.lucee.commons.io</Bundle-SymbolicName>
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
+            <Import-Package></Import-Package>
+
+
           </instructions>
         </configuration>
         <extensions>true</extensions>
